@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "fetim-app-v2",
-    "slug": "fetim-app-v2",
-    "version": "1.0.0",
+    "name": "AcademicAce",
+    "slug": "AcademicAce",
+    "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconapp.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashscreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121214"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/adaptiveicon.png",
+        "backgroundColor": "#121214"
+      },
+      "package": "com.pedro12354k.AcademicAce",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f50b69ff-605c-4042-823e-f25bea18cb4c"
+      }
     }
   }
 }
