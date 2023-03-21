@@ -1,4 +1,4 @@
-import { Heading, Pressable, useTheme, VStack } from "native-base";
+import { Heading, Image, Pressable, useTheme, VStack } from "native-base";
 import {
   EnvelopeSimple,
   Check,
@@ -20,6 +20,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import auth from "@react-native-firebase/auth";
 
 import Toast from "react-native-toast-message";
+
+import { Dimensions } from "react-native";
+
+import LogoImage from "../assets/logo.png";
 
 const loginSchema = z.object({
   email: z.string({ required_error: "O e-mail precisa ser informado" }).email({
@@ -66,6 +70,16 @@ export function Login() {
 
   return (
     <VStack bgColor="gray.900" flex={1} direction="column-reverse">
+      <Image
+        source={LogoImage}
+        alt=""
+        alignSelf="center"
+        position="absolute"
+        top={Math.floor(
+          Dimensions.get("screen").height -
+            Dimensions.get("screen").height * 0.8
+        )}
+      />
       <Animated.View
         className="bg-gray-200 flex-1 max-h-96 w-full rounded-t-[36px] items-start justify-start px-6 py-11"
         entering={SlideInDown.delay(0).duration(1000)}

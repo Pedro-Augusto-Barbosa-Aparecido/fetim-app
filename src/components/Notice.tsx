@@ -30,7 +30,7 @@ export function Notice({
       py={2}
       mb={2}
     >
-      <Avatar uri={uriAvatarOfNoticeOwner} mr={2} />
+      <Avatar uri={uriAvatarOfNoticeOwner} mr={2} borderColor="green.800" />
       <VStack w="full" alignItems="flex-start">
         <HStack alignItems="center">
           <Text
