@@ -6,6 +6,9 @@ export declare global {
       home: undefined;
       config: undefined;
       grades: undefined;
+      cameraScreen: {
+        keyOnAsyncStorage: string;
+      }
     }
   }
 }

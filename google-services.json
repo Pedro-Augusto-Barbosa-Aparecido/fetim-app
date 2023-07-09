@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390917746149",
+    "project_id": "academicace-ae1cb",
+    "storage_bucket": "academicace-ae1cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390917746149:android:dcfd0077f45bad3efc530c",
+        "android_client_info": {
+          "package_name": "com.pedro12354k.AcademicAce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390917746149-ttuju575quogaqdobrgbekes8nr878k1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbyKHFn3Hx27L9pSeeYF_IXNkAiVsTGPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390917746149-ttuju575quogaqdobrgbekes8nr878k1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

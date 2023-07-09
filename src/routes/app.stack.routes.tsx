@@ -1,7 +1,8 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { ConfigScreen } from "../screens/ConfigScreen";
+import { Profile } from "../screens/Profile";
 import { GradeScreen } from "../screens/Grades";
 import { Home } from "../screens/Home";
+import { CameraScreen } from "../screens/CameraScreen";
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -14,8 +15,9 @@ export function AppRoutes() {
       }}
     >
       <Screen name="home" component={Home} />
-      <Screen name="config" component={ConfigScreen} />
+      <Screen name="config" component={Profile} />
       <Screen name="grades" component={GradeScreen} />
+      <Screen name="cameraScreen" component={CameraScreen} />
     </Navigator>
   );
 }

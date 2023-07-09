@@ -183,7 +183,7 @@ export function Home() {
             </ScrollView>
           ) : (
             <HStack w="full" pl={8} pr={0} flexWrap="wrap">
-              {menus.map(({ iconName, routeName, title, icon }, index) => (
+              {menus.map(({ iconName, routeName, title, icon }) => (
                 <MenuButton
                   /* @ts-ignore disable this line because route name always is correct type */
                   navigateAction={() => navigate(routeName)}
